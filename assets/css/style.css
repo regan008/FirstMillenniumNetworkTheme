@@ -2123,12 +2123,12 @@ h6 {
     font-size: 1rem; } }
 
 a {
-  color: #00004d;
+  color: #000061;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #000061; }
+    color: #000088; }
   a img {
     border: 0; }
 
@@ -2329,7 +2329,7 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 1rem 1rem 0;
   font-size: 0.9rem;
-  background: #00004d;
+  background: #000061;
   color: #fff; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
@@ -2348,7 +2348,7 @@ kbd {
     margin-left: 0;
     margin-right: 0; }
   .button.primary {
-    background: #00004d;
+    background: #000061;
     color: #fff; }
     .button.primary:hover, .button.primary:focus {
       background: #147cc0;
@@ -2378,16 +2378,16 @@ kbd {
       background: #cc8b00;
       color: #fff; }
   .button.hollow {
-    border: 1px solid #00004d;
-    color: #00004d; }
+    border: 1px solid #000061;
+    color: #000061; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background: transparent; }
     .button.hollow:hover, .button.hollow:focus {
       border-color: #0c4d78;
       color: #0c4d78; }
     .button.hollow.primary {
-      border: 1px solid #00004d;
-      color: #00004d; }
+      border: 1px solid #000061;
+      color: #000061; }
       .button.hollow.primary:hover, .button.hollow.primary:focus {
         border-color: #0c4d78;
         color: #0c4d78; }
@@ -2729,7 +2729,7 @@ select {
   padding: 1.25rem 1rem;
   line-height: 1;
   font-size: 0.75rem;
-  color: #00004d;
+  color: #000061;
   position: relative;
   border-bottom: 1px solid #e6e6e6; }
   .accordion-title:hover, .accordion-title:focus {
@@ -2758,7 +2758,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: #00004d transparent transparent;
+    border-color: #000061 transparent transparent;
     border-top-style: solid;
     position: absolute;
     top: 50%;
@@ -2778,7 +2778,7 @@ select {
   font-size: 0.6rem;
   text-align: center;
   border-radius: 50%;
-  background: #00004d;
+  background: #000061;
   color: #fefefe; }
   .badge.secondary {
     background: #777;
@@ -2815,7 +2815,7 @@ select {
       top: 1px;
       opacity: 1; }
   .breadcrumbs a {
-    color: #00004d; }
+    color: #000061; }
     .breadcrumbs a:hover {
       text-decoration: underline; }
   .breadcrumbs .disabled {
@@ -2857,7 +2857,7 @@ select {
   .button-group.expanded .button:nth-last-child(6):first-child ~ .button {
     width: 16.66667%; }
   .button-group.primary .button {
-    background: #00004d;
+    background: #000061;
     color: #fff; }
     .button-group.primary .button:hover, .button-group.primary .button:focus {
       background: #147cc0;
@@ -2987,7 +2987,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: transparent transparent transparent #00004d;
+    border-color: transparent transparent transparent #000061;
     border-left-style: solid;
     position: absolute;
     top: 50%;
@@ -3000,7 +3000,7 @@ select {
   width: 0;
   height: 0;
   border: inset 6px;
-  border-color: transparent #00004d transparent transparent;
+  border-color: transparent #000061 transparent transparent;
   border-right-style: solid;
   float: left;
   margin-right: 0.75rem;
@@ -3047,7 +3047,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #00004d transparent transparent;
+    border-color: #000061 transparent transparent;
     border-top-style: solid;
     position: absolute;
     top: 12px;
@@ -3058,7 +3058,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #00004d transparent transparent;
+    border-color: transparent #000061 transparent transparent;
     border-right-style: solid;
     float: left;
     margin-left: 0;
@@ -3069,7 +3069,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #00004d;
+    border-color: transparent transparent transparent #000061;
     border-left-style: solid; }
   .dropdown.menu .is-dropdown-submenu-parent.is-left-arrow.opens-inner .submenu {
     right: 0;
@@ -3147,7 +3147,7 @@ select {
   white-space: nowrap;
   cursor: default;
   border-radius: 0;
-  background: #00004d;
+  background: #000061;
   color: #fefefe; }
   .label.secondary {
     background: #777;
@@ -3469,7 +3469,7 @@ body {
       background: #e6e6e6; }
   .pagination .current {
     padding: 0.1875rem 0.625rem;
-    background: #00004d;
+    background: #000061;
     color: #fefefe;
     cursor: default; }
   .pagination .disabled {
@@ -3501,7 +3501,7 @@ body {
   margin-bottom: 1rem;
   border-radius: 0; }
   .progress.primary .progress-meter {
-    background-color: #00004d; }
+    background-color: #000061; }
   .progress.secondary .progress-meter {
     background-color: #777; }
   .progress.success .progress-meter {
@@ -3516,7 +3516,7 @@ body {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #00004d;
+  background-color: #000061;
   border-radius: 0; }
   .progress-meter .progress-meter-text {
     position: absolute;
@@ -3567,7 +3567,7 @@ body {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  background-color: #00004d;
+  background-color: #000061;
   transition: all 0.2s ease-in-out;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -3734,7 +3734,7 @@ body {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
   input:checked ~ .switch-paddle {
-    background: #00004d; }
+    background: #000061; }
     input:checked ~ .switch-paddle::after {
       left: 2.25rem; }
   [data-whatinput='mouse'] input:focus ~ .switch-paddle {
@@ -3866,7 +3866,7 @@ table.hover tr:nth-of-type(even):hover {
     float: none;
     display: block; }
   .tabs.primary {
-    background: #00004d; }
+    background: #000061; }
     .tabs.primary > li > a {
       color: #fefefe; }
       .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
@@ -3879,7 +3879,7 @@ table.hover tr:nth-of-type(even):hover {
     padding: 1.25rem 1.5rem;
     line-height: 1;
     font-size: 12px;
-    color: #00004d; }
+    color: #000061; }
     .tabs-title > a:hover, .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
       background: #e6e6e6; }
 
@@ -4189,7 +4189,7 @@ article {
   padding: 0.85em 1em;
   margin: 0 1rem 1rem 0;
   font-size: 0.9rem;
-  background: #00004d;
+  background: #000061;
   color: #fff; }
   [data-whatinput='mouse'] .post-password-form input[type="submit"] {
     outline: 0; }
