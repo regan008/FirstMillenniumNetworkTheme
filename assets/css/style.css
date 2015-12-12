@@ -4327,6 +4327,10 @@ SIDEBARS & ASIDES
 *********************/
 .widget ul {
   margin: 0; }
+  .widget {
+    border-bottom: 1px solid #d8d8d8;
+    padding: .5rem 0 .5rem 0;
+  }
   .widget ul li {
     list-style: none; }
 
