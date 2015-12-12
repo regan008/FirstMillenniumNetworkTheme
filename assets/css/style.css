@@ -14,6 +14,16 @@ CSS file.
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
+
+/*Google Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+ #headerimg {
+background-image: url('http://firstmillenniumnetwork.org/wp-content/uploads/2015/12/11951996_383551095174101_6850692753194379694_n-e1449937707712.jpg');
+ height: 50px;
+ }
+.top-bar-right {
+  padding-top: 10px;
+}
 html {
   font-family: sans-serif;
   /* 1 */
@@ -1325,7 +1335,7 @@ body {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -2038,7 +2048,7 @@ td {
   padding: 0; }
 
 p {
-  font-size: inherit;
+  font-size: 18px !important;
   line-height: 1.6;
   margin-bottom: 1rem;
   text-rendering: optimizeLegibility; }
@@ -2063,8 +2073,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Lato", Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
   font-style: normal;
   color: inherit;
   text-rendering: optimizeLegibility;
@@ -3251,12 +3261,14 @@ select {
     margin-left: 1rem; }
 
 .menu-text {
-  font-weight: bold;
+  font-weight: 300;
   color: inherit;
   line-height: 1;
   padding-top: 0;
   padding-bottom: 0;
-  padding: 0.7rem 1rem; }
+  padding: 0.7rem 1rem;
+  font-size: 200%;
+   }
 
 html,
 body {
@@ -4094,9 +4106,27 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+#sidebar1{
+  border: 1px solid #d8d8d8;
+  background-color: #f2f2f2;
+  padding: 1.25rem;
+}
+#content { 
+  background-color: ;
+}
+#inner-content {
+  background-color: white;
+  margin-top: 1rem;
+}
 #content #inner-content {
-  padding: 1rem 0rem; }
-
+  padding: 1rem;
+   }
+article { 
+  padding: 1rem 2rem;
+}
+#inner-footer {
+  padding-top: 10px;
+}
 .page-title .vcard {
   border: 0px;
   padding: 0px; }
@@ -4305,7 +4335,9 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  margin-top: 1em; }
+  margin-top: 1em;
+  background-color: #f2f2f2;
+  border-top: 1px solid #d8d8d8; }
 
 /*********************
 FOUNDATION STYLES
